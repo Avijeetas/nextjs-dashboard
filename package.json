@@ -4,7 +4,7 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "vercel-build": "npm run prepare && next build"
+    "vercel-build": "pnpm run vercel-build"
   },
   "packageManager": "pnpm@8.11.0",
   "dependencies": {
